@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driverClassName: com.teradata.jdbc.TeraDriver
+    url: jdbc:teradata://teraqa.app.ford.com/database=gfin_data,tmode=ANSI,charset=UTF8
+    username: IBPRTWBT
+    password: ford119
+  profiles:
+    active: local-sandbox
