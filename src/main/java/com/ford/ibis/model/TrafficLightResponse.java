@@ -29,4 +29,5 @@ public class TrafficLightResponse {
 	private String selectedMarketDesc;
 	private String postingDateMsg;
 	private String displayChannelsWithoutObjectives;
+	private List<TreeStructure> trafficLightData;
 }

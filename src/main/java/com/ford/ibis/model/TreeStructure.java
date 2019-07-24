@@ -4,22 +4,22 @@ import java.util.List;
 
 public class TreeStructure {
 	
-	
-	public ProductHierarchyRecord data;
-	public List<TreeStructure> childrens;
-	public ProductHierarchyRecord getData() {
+	private DailySalesPerformanceNARecord data;
+	private List<TreeStructure> children;
+	public DailySalesPerformanceNARecord getData() {
 		return data;
 	}
-	public void setData(ProductHierarchyRecord data) {
+	public void setData(DailySalesPerformanceNARecord data) {
 		this.data = data;
 	}
-	public List<TreeStructure> getChildrens() {
-		return childrens;
+	public List<TreeStructure> getChildren() {
+		return children;
 	}
-	public void setChildrens(List<TreeStructure> childrens) {
-		this.childrens = childrens;
+	public void setChildren(List<TreeStructure> children) {
+		this.children = children;
 	}
 	
 	
 	
+
 }
